@@ -3,6 +3,7 @@ package org.arpit.java2blog.controller;
 import java.util.List;
 
 import org.arpit.java2blog.model.Customer;
+import org.arpit.java2blog.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
