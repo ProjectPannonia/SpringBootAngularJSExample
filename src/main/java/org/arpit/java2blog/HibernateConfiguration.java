@@ -48,7 +48,6 @@ public class HibernateConfiguration {
 		dataSource.setUrl(URL);
 		dataSource.setUsername(USERNAME);
 		dataSource.setPassword(PASSWORD);
-		
 		return dataSource;
 	}
 	
